@@ -22,7 +22,7 @@ On August 29th 2018, Tongji University enabled its new VPN solution from ArrayNe
 
 - Download the VPN client for your OS from [this Chinese download page of ArrayNetworks SSL VPN](http://client.arraynetworks.com.cn:8080/zh/troubleshooting), and place it as `MotionPro_install.sh` under the cloned repository folder
 
-- View `startMotionPro.sh` and set the environment variable `TJID` and `PASSWORD` or simply replace them with the value.
+- View `startMotionPro.sh` and set the environment variable `TJID` and `TJPASSWORD` or simply replace them with the value.
 
 - Run `run.sh` as *root*
 

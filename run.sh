@@ -25,9 +25,9 @@ ip netns exec tjan bash -c ./startMotionPro.sh
 if [ "$?" = "0" ]; then
 	echo Socks5 server will now run on 10.173.22.2:1080
 	if [ "$1" = "-D" ]; then
-		ip netns exec tjan sockd -D -f ./sockd-tjan.conf
+		ip netns exec tjan sockd -D -f ./sockd-tjan.conf &
 	else
-		ip netns exec tjan sockd -f ./sockd-tjan.conf
+		ip netns exec tjan sockd -f ./sockd-tjan.conf &
 	fi
 fi
 
