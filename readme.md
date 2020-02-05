@@ -8,13 +8,12 @@ On August 29th 2018, Tongji University enabled its new VPN solution from ArrayNe
 
 ### Mechanism
 
-[An isolated network namespace](https://superuser.com/questions/983727/route-only-specific-traffic-through-vpn) + [Dante socks server](https://www.inet.no/dante/index.html)
+[An isolated network namespace](https://superuser.com/questions/983727/route-only-specific-traffic-through-vpn) + A socks5 server (In most cases `ssh` will do the job)
 
 ### Dependency
 
 - iproute2
 - pkill
-- [dante](https://www.inet.no/dante/index.html)
 
 ### Procedure
 
