@@ -23,6 +23,8 @@ On August 29th 2018, Tongji University enabled its new VPN solution from ArrayNe
 
 - View `startMotionPro.sh` and set the environment variable `TJID` and `TJPASSWORD` or simply replace them with the value.
 
+- Replace `sockd` part in `run.sh` to any socks5 server program you like
+
 - Run `run.sh` as *root*
 
 - Now try connecting network through `socks://10.173.22.2:1080`
